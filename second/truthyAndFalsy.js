@@ -20,3 +20,10 @@ if (2 === user) {
 //because one is string so output is 22
 console.log(2 + "2");
 
+
+if( false == false) {
+    console.log("HERE");
+}
+
+
+console.log(1/0);

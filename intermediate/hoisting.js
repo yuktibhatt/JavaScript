@@ -30,3 +30,10 @@ sayName();
 
 console.log(name);
 
+
+// add(5,6);
+// var add = function(a,b){
+//     console.log(a+b);
+// }
+
+
