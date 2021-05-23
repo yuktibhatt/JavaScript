@@ -14,3 +14,20 @@ for(let i=0; i< states.length; i++) {
     console.log(states[i]);
 }
 
+
+//while loop
+let i = 0;
+
+while(i < states.length) {
+    console.log(states[i]);
+    i++;
+}
+ 
+//do while
+
+
+ do{
+    console.log(states[i]);
+    i++;
+} while(i < states.length);
+ 
