@@ -22,3 +22,4 @@ console.log( add5(5));
 
 console.log(doAdd(5)(6));
 
+//doAdd()()()   //curring
