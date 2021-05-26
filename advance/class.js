@@ -14,8 +14,24 @@ class User{
     getCourseList(){
         return this.#courseList;
     }
+
+    login() {
+        return "Your are logged in";
+    }
 }
 
+
+class SubAdmin extends User{        //inheritance
+    constructor(name, email){
+      super(name, email);
+    }
+    getAdminInfo() {
+        return "I am subAdmin";
+    }
+    login(){
+        return "Login for admin only";
+    }
+}
 
 module.exports = User;
 
@@ -26,4 +42,9 @@ console.log(rock.getInfo());
 rock.enrollCourse("Angular");
 console.log(rock.getCourseList());
 console.log(rock.courseList);
+
+const tom = new SubAdmin("tom", "tom@jerry.com");
+console.log(tom.getAdminInfo());
+console.log(tom.login());
+console.log(tom.getInfo());
 
