@@ -8,6 +8,8 @@ body {
   height: 100vh;
   background-color: rgb(66, 66, 66);
   display: flex;
+  overflow : hidden;
+  
 }
 
 .gameContainer {
